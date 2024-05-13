@@ -9,10 +9,13 @@
     border-radius: 15%;
     font-size: 20px;
     font-weight: 500;
-    
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.528); */
     color: white;
     border: none;
+    box-shadow: 0px 0px 10px #0c629c65;
+}
+.btn_black:hover{
+    background-color: #0C629C;
+    transition: 0.3s;
 }
 .btn_blue{
     background-color:#0C629C ;
@@ -27,7 +30,7 @@
     width: 400px;
     background-color: #131112f6;
     border-radius: 10px;
-    
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.559); 
 }
 #display{
     width: 100%;
@@ -49,4 +52,8 @@
     font-size: 22px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
+}
+#display{
+    text-align: right;
+    outline: none;
 }
